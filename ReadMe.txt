@@ -9,7 +9,7 @@ A backend system for cleaning and validating structured datasets (CSV/Excel) wit
 This project processes uploaded datasets and:
 
 - Cleans data using rule-based logic
-- Flags invalid or ambiguous values
+- Flags and Rejects invalid or ambiguous values
 - Generates:
   - Cleaned file
   - Logs file (audit trail)
@@ -46,6 +46,7 @@ This project processes uploaded datasets and:
 - Coordinate validation
 - Price normalization
 - Duplicate handling with logs
+- Provides Row status whether usable or not for further purposes
 
 ---
 
